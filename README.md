@@ -1,168 +1,145 @@
 # 🏨 Hotel Room Booking Console Application
 
-A Java-based Hotel Room Booking Console Application developed using Object-Oriented Programming (OOP) concepts. This project allows users to manage hotel room bookings through a menu-driven console interface.
+A Java-based **Hotel Room Booking Console Application** developed using **Object-Oriented Programming (OOP)** concepts. The application allows users to view rooms, book rooms, search bookings, cancel bookings, and store booking details using file handling.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Features
 
-The Hotel Room Booking Console Application is designed to simulate a basic hotel booking system. Users can view available rooms, book rooms, cancel bookings, search for bookings, and display all bookings. Booking information is stored in a text file using Java File Handling.
-
-This project demonstrates the implementation of core Java programming concepts and follows a modular package structure.
-
----
-
-## ✨ Features
-
-- View all hotel rooms
-- Book a room
-- Cancel an existing booking
-- Search booking using Booking ID
-- View all bookings
-- Calculate total booking bill
-- Store booking details in a text file
-- Input validation
-- Menu-driven console interface
+- 🛏️ View available hotel rooms
+- ✅ Book a room
+- 🔍 Search booking by Booking ID
+- ❌ Cancel a booking
+- 📋 View all bookings
+- 💾 Save booking details to a text file
+- ✔️ Input validation
+- 🧱 Object-Oriented Design
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Java
 - Object-Oriented Programming (OOP)
 - Java Collections (ArrayList)
 - File Handling
 - Exception Handling
-- Console Application
+- Console-Based User Interface
 
 ---
 
 ## 📂 Project Structure
 
-```
-HotelRoomBookingConsoleApp
+```text
+HotelRoomBookingConsoleApp/
 │
-├── src
-│   ├── app
-│   │     Main.java
-│   │
-│   ├── model
-│   │     Booking.java
-│   │     Customer.java
-│   │     Room.java
-│   │
-│   ├── service
-│   │     HotelService.java
-│   │
-│   └── util
-│         FileManager.java
+├── data/
+│   └── bookings.txt
 │
-├── data
-│     bookings.txt
+├── screenshots/
+│   ├── main-menu.png
+│   ├── view-rooms.png
+│   ├── booking-success.png
+│   ├── search-booking.png
+│   ├── view-all-bookings.png
+│   ├── cancel-booking.png
+│   ├── validation.png
+│   └── exit.png
 │
-└── README.md
+├── src/
+│   ├── app/
+│   ├── model/
+│   ├── service/
+│   └── util/
+│
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-## 🚀 How to Run
+# 📸 Project Screenshots
 
-### Compile
+## 🏠 Main Menu
 
-```bash
-javac app/Main.java
-```
-
-### Run
-
-```bash
-java app.Main
-```
+![Main Menu](screenshots/main-menu.png)
 
 ---
 
-## 📋 Menu
+## 🛏️ View Rooms
 
-```
-1. View Rooms
-2. Book Room
-3. Cancel Booking
-4. Search Booking
-5. View All Bookings
-6. Exit
-```
+![View Rooms](screenshots/view-rooms.png)
 
 ---
 
-## 💻 OOP Concepts Used
+## ✅ Booking Successful
 
-- Classes and Objects
-- Constructors
+![Booking Successful](screenshots/booking-success.png)
+
+---
+
+## 🔍 Search Booking
+
+![Search Booking](screenshots/search-booking.png)
+
+---
+
+## 📋 View All Bookings
+
+![View All Bookings](screenshots/view-all-bookings.png)
+
+---
+
+## ❌ Cancel Booking
+
+![Cancel Booking](screenshots/cancel-booking.png)
+
+---
+
+## ⚠️ Input Validation
+
+![Validation](screenshots/validation.png)
+
+---
+
+## 🚪 Exit
+
+![Exit](screenshots/exit.png)
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me understand:
+
+- Object-Oriented Programming
+- Class Design
 - Encapsulation
-- Method Calling
-- Packages
-- Object Composition
-
----
-
-## 📁 File Handling
-
-Booking details are stored inside:
-
-```
-data/bookings.txt
-```
-
-Each booking is saved in comma-separated format.
-
----
-
-## 🔍 Validation
-
-The application validates:
-
-- Empty customer name
-- Empty phone number
-- Invalid room number
-- Already booked rooms
-- Invalid booking ID
-- Number of days greater than zero
-
----
-
-## 📚 Learning Outcomes
-
-This project helped in understanding:
-
-- Java Programming
-- Object-Oriented Design
-- Console Application Development
-- Java Collections
+- Constructors
+- ArrayList
 - File Handling
 - Exception Handling
-- Project Structure
-- GitHub Project Management
+- Console Application Development
+- Git & GitHub
 
 ---
 
-## 🚀 Future Enhancements
+## 🔮 Future Improvements
 
-- Login System
+- Login Authentication
 - Admin Dashboard
-- Customer Dashboard
-- Automatic Loading of Saved Bookings
-- Database Integration (MySQL)
-- GUI using Java Swing
-- Online Payment Simulation
+- Customer Management
+- Database (MySQL)
+- Java Swing GUI
+- Online Payment Integration
 
 ---
 
-## 👨‍💻 Author
+## 👩‍💻 Author
 
-**Muskan**
+**Muskan Bhadala**
 
-B.Tech Computer Science Engineering
+B.Tech (Computer Science Engineering)
 
-Java Console Project
-
----
+Java Developer | Learning DSA | Exploring Full Stack Development

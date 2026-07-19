@@ -39,7 +39,7 @@ public class Room {
     System.out.println("--------------------------------------------");
     System.out.printf("%-15s : %d%n", "Room Number", roomNumber);
     System.out.printf("%-15s : %s%n", "Room Type", roomType);
-    System.out.printf("%-15s : ₹%.2f%n", "Price/Night", price);
+    System.out.printf("%-15s : Rs.%.2f%n", "Price/Night", price);
     System.out.printf("%-15s : %s%n",
 "Status", booked ? "Booked" : "Available");
 }
